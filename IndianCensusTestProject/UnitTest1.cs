@@ -10,19 +10,19 @@ namespace IndianCensusTestProject
         static string indianStateCensusHeaders = "state,population,area,density";
         static string indianStateCodeHeaders = "SrNo,State Name,TIN,StateCode";
         //CorrectFilePaths
-        static string indianStateCensusFilePath = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\IndiaStateCensusData.csv";
-        static string indianStateCodeFilePath = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\IndiaStateCode.csv";
+        static string indianStateCensusFilePath = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\IndiaStateCensusData.csv";
+        static string indianStateCodeFilePath = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\IndiaStateCode.csv";
         //WrongFilePaths
         static string wrongIndianStateCodeFilePath = "";
         static string wrongIndianStateCensusFilePath = "";
         //WrongFiles
-        static string wrongHeaderIndianStateCodeFile = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\WrongIndiaStateCode.csv";
-        static string wrongHeaderIndianStateCensusFile = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\WrongIndiaStateCensusData.csv";
-        static string wrongIndianStateCodeFileType = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\IndianStateCode.txt";
-        static string wrongIndianStateCensusFileType = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\IndiaStateCensusData.txt";
+        static string wrongHeaderIndianStateCodeFile = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\WrongIndiaStateCode.csv";
+        static string wrongHeaderIndianStateCensusFile = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\WrongIndiaStateCensusData.csv";
+        static string wrongIndianStateCodeFileType = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\IndianStateCode.txt";
+        static string wrongIndianStateCensusFileType = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\IndiaStateCensusData.txt";
         //WrongDelimiter
-        static string wrongDelimiterIndianCensusFilePath = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\DelimiterIndiaStateCensusData.csv";
-        static string wrongDelimiterIndianStateCodeFilePath = @"C:\Users\ASUS\source\repos\IndianStateCensusAnalyser\IndianStateCensusAnalyser\CSVFiles\DelimiterIndiaStateCode.csv";
+        static string wrongDelimiterIndianCensusFilePath = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\DelimiterIndiaStateCensusData.csv";
+        static string wrongDelimiterIndianStateCodeFilePath = @"C:\Users\ak\Desktop\BridgeLabz Project\IndianStateCensusAnalyzer\IndianStateCensusAnalyzer\CSVFiles\DelimiterIndiaStateCode.csv";
 
         IndianStateCensusAnalyser.CensusAnalyser censusAnalyser;
         Dictionary<string, CensusDTO> totalRecord;
